@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="describtion" content="Information about MuscleGymNation">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"  >
+  <title>About Us</title>
+</head>
+
+ <body class="exhibitions">
+
+  <header class="sub-header">
+    <nav>
+      <a href="../pages/index.html"><img src="../images/logopng.png" alt="logo of community science museum, green round circle"></a>
+      <div class="nav-links" id="navLinks">
+       <i id="iheader" class="fa-regular fa-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="../pages/index.html">Home</a></li>
+          <li><a href="../pages/about.html">About Us</a></li>
+          <li><a href="../pages/blogs.html">Blogs</a></li>
+          <li><a href="../pages/contact.html">Contact Us</a></li>
+        </ul>
+     </div>
+     <i id="iheader" class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+
+  </header>
+
+  <div class="aboutus">
+
+  <h2>About Us</h2>
+  <p>
+    Welcome to Muscle Gym Nation, your ultimate destination for everything related to building muscles, achieving fitness goals, and living a healthier lifestyle.</p>
+    
+    <h2>Our Mission</h2>
+    <p>At Muscle Gym Nation, we are committed to providing you with expert guidance, evidence-based information, and practical tips to help you reach your fitness goals effectively and safely. Whether you're a beginner or an experienced fitness enthusiast, our goal is to empower you with the knowledge and tools you need to transform your body and improve your overall well-being. </p>
+    
+    <h2>What We Offer</h2>
+    <p>Expert Advice: Our team of experienced fitness professionals and certified trainers are dedicated to delivering accurate and reliable information on muscle building, nutrition, exercise routines, and more.
+    Workout Plans: Discover a variety of customized workout plans designed to target specific muscle groups, improve strength, and enhance overall fitness.
+    Nutrition Guidance: Learn about the importance of nutrition in muscle growth and explore a range of healthy recipes, meal plans, and dietary tips to support your fitness journey.
+    Community Support: Join a supportive community of like-minded individuals who share your passion for fitness. Connect with others, share your progress, and stay motivated throughout your fitness journey.
+    Our Commitment
+    At Muscle Gym Nation, we are committed to promoting a positive and inclusive fitness culture. We believe that everyone deserves the opportunity to lead a healthy and active lifestyle, regardless of age, gender, or fitness level. Our content is tailored to meet the diverse needs of our audience, and we strive to create a welcoming environment where everyone feels encouraged and supported on their fitness journey. </p>
+    
+    <h2>Get Started Today!</h2>
+    <p>Ready to take the first step towards a stronger, healthier you? Explore our website, discover valuable resources, and embark on your fitness journey with Muscle Gym Nation. Whether your goal is to build muscle, lose weight, or improve your overall fitness, we're here to help you succeed every step of the way.</p>
+
+    
+  </div>
+
+  <!---Footer starts here-->
+  <hr class="h">
+  <footer class="section-p1">
+    <div class="col">
+      <h5>Shortcuts</h5>
+      <a href="../pages/index.html">Home Page</a>
+      <a href="../pages/about.html">About</a>
+      <a href="../pages/blogs.html">Blogs</a>
+      <a href="../pages/contact.html">Contact Us</a>
+    </div>
+
+
+    <div class="col3">
+      <h5>Contact Us</h5>
+      <p><span>Address:</span> Krokbekkveien 23A</p>
+      <p><span>Phone:</span> +47 45064796</p>
+      <p><span>Email:</span> CSC@MuscleGymNation.com</p>
+    </div>
+
+
+    <div class="copyright">
+      <p>2022 Ravand - HTML CSS</p>
+    </div>
+
+  </footer>
+
+
+
+   <!---javaScript for Toggle Menu-->
+  <script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+
+  </script>
+
+
+
+</body>
+</html>
